@@ -84,6 +84,106 @@
     color: #ffbd39;
     font-weight: 700;
   }
+
+
+  
+/*************************************************(porti) works section ***************************/
+.portfolio1 .navs_propertis li a
+{
+    color: black ;
+    font-weight: 600;
+    font-size: 14px;
+   
+   
+}
+   
+.portfolio1 .nav-pills .nav-link.active {
+    color: white !important;
+    border-radius: 60px;
+}
+.portfolio1 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #e65f78;
+}
+
+.imgPort{
+  width: 500px;
+  height: 200px;
+}
+
+.works_layer
+{
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+   
+}
+.works_items:hover .works_layer
+{
+    top:0;
+}
+
+
+.works_caption
+{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+   
+    transition: top .5s ;
+    
+}
+.works_items:hover .works_caption 
+{
+    top: 0;
+    
+}
+.works_items img
+{
+    transition:transform .5s  ;
+}
+
+
+.works_items:hover .works_items img
+{
+    transform: scale(1.2,1.2);
+}
+/* caption  font */
+.works_caption p
+{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+.works_caption h5
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.works_items
+{
+    margin: 15px 0px ;
+}
+/* *********************************end porti**************************************** */
+
+
+
+
+
+
+
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
